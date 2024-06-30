@@ -11,6 +11,6 @@ public class Dado {
     }
     public int tirada(){
         Random random = new Random();
-        return  random.nextInt(6) + 1;
+        return  random.nextInt(this.caras) + 1;
     }
 }
